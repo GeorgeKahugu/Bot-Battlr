@@ -54,6 +54,17 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+/* css code for simple styling using a flex box */
+.bot-collection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.bot-card {
+  width:30%;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
