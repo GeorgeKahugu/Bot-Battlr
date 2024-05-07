@@ -44,7 +44,7 @@ function YourBotArmy({ updateRenderBotCollection }) {
     <div className="bot-collection">
       {armyofBots.map((bot, index) => {
         return (
-          <div onClick={() => dispatchBotFromArmy(bot)} key={index} className="bot-card">
+          <div onClick={() => dispatchBotFromArmy(bot.id)} key={index} className="bot-card">
             <img src={bot.avatar_url} alt={bot.name} />
             <p>Id:{bot.id}</p>
             <p>Name:{bot.name}</p>

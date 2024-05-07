@@ -65,6 +65,11 @@ button:focus-visible {
   width:30%;
 }
 
+.sort-bar{
+  height: 50px;
+  width: 50%;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
